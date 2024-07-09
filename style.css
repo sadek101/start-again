@@ -1,0 +1,78 @@
+ body{
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ /*  nav related style   */
+ nav{
+    display: flex;
+    justify-content: space-between;
+   
+ }
+
+.btn-primary{
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.mary{
+    font-weight: 700;
+    font-size: 40px;
+}
+.hu{
+    color: orange;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+   list-style: none;
+   margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+}
+/*   slider related    */
+.slider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(230, 227, 221);
+}
+.slider-tittle{
+    font-size: 40px;
+    font-weight: 400;
+}
+.slider-name{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.btn-simple{
+    padding: 10px; 
+    border: 1px solid orange;
+    background-color: white;
+}
+.hardy{
+    background-image: url("./img/header_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*    about section     */
+.email{
+    text-align: center;
+    margin: 100px;
+}
+.broke{
+   font-size: 25px;
+   font-style: italic; 
+   font-weight: 700;
+   
+}
+.wrong{
+    display: flex;
+    
+}
